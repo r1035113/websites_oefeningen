@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: 20px 0;
+        }
+
+        table.border{
+            margin: 1em;
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+
+        table.border td{
+            border: solid 2px black;
+            padding: 15px;
+        }
+
+        table.border th{
+            border: solid 1px black;
+            padding: 15px;
+            background-color: gray;
+            color: black;
+        }
+
+        caption{
+            caption-side: bottom;
+        }
+        hr{
+            padding: 1px;
+            width: 100%;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <table class="border">
+       
+        <tr>
+            <th rowspan="5"></th>
+            <th>Naam</th>
+            <th>Aantal Koppen</th>
+            <th>Type</th>
+            <th>Suiker</th>
+        </tr>
+        <tr>
+            <td>Jasper Vervliet</td>
+            <td>10</td>
+            <td>Zo zwart mogenlijk</td>
+            <td>ja</td>
+        </tr>
+        <tr>
+            <td>Maaike van den Bulck</td>
+            <td>15</td>
+            <td>normaal</td>
+            <td>nee</td>
+        </tr>
+        <tr>
+            <td>Nele Beerten</td>
+            <td>0</td>
+            <td>Deca</td>
+            <td>ja</td>
+        </tr>
+        <tr>
+            <td>Anja Raymaekers</td>
+            <td>6</td>
+            <td>normaal</td>
+            <td>ja</td>
+        </tr>
+    </table>
+</body>
+</html>
